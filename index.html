@@ -663,7 +663,7 @@
 
   async function callAPI(pixels) {
     const url = getApiUrl();
-    if (!url || url === 'API_URL/predict') {
+    if (!url || url === 'https://backend-handwriting-recognition-1.onrender.com/predict') {
       showError('Please enter your Render API URL above.');
       return;
     }
